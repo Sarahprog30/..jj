@@ -1,0 +1,158 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general page layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles: Full-width rectangle with logo centered */
+header {
+    width: 100%;
+    background-color:#6de3d5;
+    padding: 20px 0;
+}
+
+header .logo-container {
+    text-align: center;
+}
+
+header .logo {
+    max-width: 140px; /* Adjust size of your logo */
+    height: 150px;
+    margin-left: auto;       /* Senterer horisontalt */
+    margin-right: auto;      /* Senterer horisontalt */
+}
+
+/* Navigation Bar styles */
+nav {
+    background-color: 	#8cffdb;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #004142;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer styles */
+.footer {
+    background-color: #6de3d5;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a {
+    color:#004142;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer a:hover {
+    color: chocolate;
+}
+
+
+.product-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.lagring-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.produkt {
+    width: 48%;
+    background-color: #d1fff1;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border-style: solid;
+    border-color: #3c857d;
+}
+.lagring {
+    width: 48%;
+    background-color: #d1fff1;
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border-style: solid;
+    border-color: #3c857d;
+}
+
+
+.produkt img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.lagring img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.tekst {
+    font-size: 15px;
+    position: relative;
+    left: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    padding-left: 500px;
+}
+
+/*#enkelpc{
+    display: block;
+    margin-left: auto;      
+    margin-right: auto;      
+    max-height: 300px;       
+    height: auto;
+    padding-bottom: 20px;
+}
+
+#gamingpc {
+    display: block;
+    /* margin-left: auto;       
+    /* margin-right: auto;     
+    max-width: 30%;          
+    max-height: 300px;       
+    height: auto;
+}*/
+

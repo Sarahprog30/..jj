@@ -1,0 +1,150 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general page layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles: Full-width rectangle with logo centered */
+header {
+    width: 100%;
+    background-color:#6de3d5;
+    padding: 20px 0;
+}
+
+header .logo-container {
+    text-align: center;
+}
+
+header .logo {
+    max-width: 140px; /* Adjust size of your logo */
+    height: 150px;
+}
+
+/* Navigation Bar styles */
+nav {
+    background-color: 	#8cffdb;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #004142;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content section styles */
+main {
+    padding: 40px;
+    background-color: #F2F2F2;
+}
+
+main h1, main h2 {
+    color: #333;
+}
+
+main section {
+    margin-bottom: 40px;
+}
+
+main p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #6de3d5;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer a {
+    color:#004142;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer a:hover {
+    color: chocolate;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    header .logo-container {
+        padding: 10px;
+    }
+
+    header .logo {
+        max-width: 120px; /* Adjust for smaller screens */
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    main {
+        padding: 20px;
+    }
+}
+
+
+
+h1 {
+    text-align: center;    /* Sentrerer teksten */
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+p {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#daglig-leder-bilde {
+    display: block;
+    margin-left: auto;       /* Senterer horisontalt */
+    margin-right: auto;      /* Senterer horisontalt */
+    max-width: 50%;          /* Setter maks bredde på 50% av skjermen */
+    max-height: 400px;       /* Setter maks høyde på 400px */
+    height: auto;            /* Beholder bildets proporsjoner */
+}
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="logo_grønn.png">
+</head>
+<body>
+    <!-- Header with logo centered -->
+    <header>
+        <div class="logo-container">
+            <img src="logo_grønn.png" alt="Your Logo" class="logo">
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="Produkter.html">Produkter</a></li>
+            <li><a href="Podcast/Dubbing.html">Podcast/Dubbing</a></li>
+            <li><a href="Aktuell.html">Aktuelle komponenter</a></li>
+            <li><a href="dagelig_leder.html">Daglig leder</a></li>
+            <li><a href="handle_vogn.html">Handle vogn</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <h1>Bestill din PC!</h1>
+        <br>
+        <form id="bestillingsskjema">
+            <h2><label for="gamingPC">Antall Gaming PC (18 000 NOK per stk):</label>
+            <input type="number" id="gamingPC" name="gamingPC" min="0" value="0"><br><br>
+            <label for="enkelPC">Antall Enkel PC (9 000 NOK per stk):</label>
+            <input type="number" id="enkelPC" name="enkelPC" min="0" value="0"><br><br>
+            <button type="button" onclick="beregnSum()">Sum</button>   
+        </form>
+        <div id="resultat"></div>
+        <button type="button" onclick="visOppsummering()">Bestill</button>
+        <div id="oppsummering"></div>
+        <script src="style.js"></script></h2> 
+        <br>
+        <br>
+    </main>
+
+    <!-- Footer -->
+    <div class="footer">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+</body>
+</html>
